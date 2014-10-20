@@ -16,6 +16,6 @@
     "README.md"
     ],
   "dependencies" : {
-    "angular" : "PatternConsulting/bower-angular"
+    "angular" : "angular/bower-angular"
   }
 }
