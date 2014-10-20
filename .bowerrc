@@ -1,6 +1,6 @@
 {
     "directory": "components",
     "dependencies" : {
-	  "angular" : "PatternConsulting/bower-angular"
+	  "angular" : "angular/bower-angular"
 	}
 }

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AngularJs.HAL.Parser</id>
+        <version>$version$</version>
+        <title>AngularJS HAL Parser</title>
+        <authors>https://github.com/jasonaden</authors>
+        <owners>https://github.com/jasonaden</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Using HAL resources with AngularJS.</description>
+        <summary />
+        <copyright></copyright>
+        <language>en-US</language>
+        <tags>Javascript, AngularJs, HAL</tags>
+		<dependencies>            
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\Parser.js" target="content\Scripts\angular-hal-parser.js" />
+    </files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
