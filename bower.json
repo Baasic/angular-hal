@@ -1,6 +1,20 @@
 {
   "name": "angular-hal",
   "version": "v0.1.2",
+  "main": "src/Parser.js",
+  "ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+    "src",
+    "spec",
+    "bower.json",
+    "gulpfile.js",
+    "package.json",
+    "README.md"
+    ],
   "dependencies" : {
     "angular" : "PatternConsulting/bower-angular"
   }
