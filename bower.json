@@ -1,6 +1,6 @@
 {
   "name": "angular-hal",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "src/Parser.js",
   "ignore": [
      "**/.*",
@@ -10,7 +10,7 @@
 	 "nuget",
      "test",
      "tests",
-    "src",
+    "src/*.coffee",
     "spec",
     "bower.json",
     "component.json",
