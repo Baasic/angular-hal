@@ -1,9 +1,10 @@
 {
   "name": "angular-hal",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "src/Parser.js",
   "ignore": [
      "**/.*",
+	 "**/*.xml",
      "node_modules",
      "bower_components",
 	 "nuget",
@@ -12,8 +13,12 @@
     "src",
     "spec",
     "bower.json",
-    "gulpfile.js",
+    "component.json",
+    "Gruntfile.js",
     "package.json",
+    "jasmine-1.1.0.js",
+    "JasmineAdapter-1.1.2.js",
+    "karma.conf.js",
     "README.md"
     ],
   "dependencies" : {
