@@ -39,15 +39,17 @@
             prop = embedded[name];
             this[removeNamespace(name, ns)] = (function() {
               var _i, _len, _results;
-              if (ng.isArray(prop)) {
-                _results = [];
-                for (_i = 0, _len = prop.length; _i < _len; _i++) {
-                  em = prop[_i];
-                  _results.push(new Parser(ns).parse(em, ns));
+              if (prop) {
+                if (ng.isArray(prop)) {
+                  _results = [];
+                  for (_i = 0, _len = prop.length; _i < _len; _i++) {
+                    em = prop[_i];
+                    _results.push(new Parser(ns).parse(em, ns));
+                  }
+                  return _results;
+                } else {
+                  return new Parser(ns).parse(prop, ns);
                 }
-                return _results;
-              } else {
-                return new Parser(ns).parse(prop, ns);
               }
             })();
           }
