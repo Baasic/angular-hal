@@ -75,7 +75,7 @@
         function Links(links, ns) {
           var link, lk, name;
           if (!(links != null ? links.self : void 0)) {
-            throw 'Self link is required';
+            console.log('Self link is missing.');
           }
           for (name in links) {
             link = links[name];
